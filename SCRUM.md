@@ -7,8 +7,8 @@
 - [Train Model]("")
 - [Predict with Model]("")
 - [Assess Model Accuracy with Cross-validation]("")
-- [Setup Github Repository]("")
-- [Setup Github Pages]("")
+
+- [Setup Github Pages for React App]("https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f")
 - [Github Actions Hook required?]("")
 - [Incorporate DataForge Notebook]("")
 - [Incorporate Observable Notebook]("")
@@ -23,13 +23,19 @@
 
 ## Finished Goods:
 
+- [Setup Github Repository]("")
+
+#########################################################################################
+
 # Style Guide:
+
+#########################################################################################
 
 # Architecture:
 
-# TroubleShoot: Problem/Solution
+#########################################################################################
 
-# Bash Commands History?
+# TroubleShoot: Problem/Solution
 
 ## Problem? Error: create-react-app not working
 
@@ -52,3 +58,9 @@ npx create-react-app supermarket --template typescript
 - [Vega-Lite-Api]("")
 - [TFJS]("")
 - [MLJS]("")
+
+#########################################################################################
+
+# Bash Commands
+
+npm start

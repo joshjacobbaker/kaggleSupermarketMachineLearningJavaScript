@@ -1,3 +1,7 @@
+# Visit this Github project's GH-PAGE
+
+https://joshjacobbaker.github.io/kaggleSupermarketMachineLearningJavaScript/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
