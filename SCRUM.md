@@ -7,22 +7,33 @@
 - [Train Model]("")
 - [Predict with Model]("")
 - [Assess Model Accuracy with Cross-validation]("")
-
-- [Setup Github Pages for React App]("https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f")
+- [React Vega Lite SDK?]("")
 - [Github Actions Hook required?]("")
+
 - [Incorporate DataForge Notebook]("")
 - [Incorporate Observable Notebook]("")
+
 - [Create JSX Components for train, explore, model, validate sections]("")
 - [Create JSX Component for User Entered Prediction Parameters]("")
-- [Save Kaggle Data to Project]("https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data")
-- [Install TfJs or MlJs]("")
-- [Install Vega-Lite-Api]("")
-- [Install Data-Forge]("")
+
+- [Material/UI Component Library]("")
+- [useEffect, useState, useContext, useReducer]("")
+- [useRouter, useParams, useHistory, useLocation]("")
+- [Create Components Directory]("")
+- [JSX Table Component with User Input Parameters like filtering, etc.]("https://www.youtube.com/watch?v=-urz6Sh7RE8&list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe&index=5")
 
 ## WIP:
 
 ## Finished Goods:
 
+- [Save Kaggle Data to Project]("https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data")
+- [Install MLJS]("https://www.npmjs.com/package/ml")
+- [Install TfJs]("https://www.npmjs.com/package/@tensorflow/tfjs")
+- [Install Vega-Lite-Api]("https://www.npmjs.com/package/vega-lite-api")
+- [Install Data-Forge]("https://www.npmjs.com/package/data-forge")
+- [Install Styled-Components]("https://styled-components.com/docs/basics#installation")
+- [Install Framer-Motion]("https://www.npmjs.com/package/framer-motion")
+- [Setup Github Pages for React App]("https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f")
 - [Setup Github Repository]("")
 
 #########################################################################################
