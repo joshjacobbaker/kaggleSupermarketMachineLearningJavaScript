@@ -24,8 +24,11 @@
 
 ## WIP:
 
+- [Styled-Components with TypeScript]("https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/")
+
 ## Finished Goods:
 
+- [Reset Global CSS defaults]("https://www.joshwcomeau.com/css/custom-css-reset/")
 - [Save Kaggle Data to Project]("https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data")
 - [Install MLJS]("https://www.npmjs.com/package/ml")
 - [Install TfJs]("https://www.npmjs.com/package/@tensorflow/tfjs")
