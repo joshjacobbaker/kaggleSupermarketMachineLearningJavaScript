@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kaggleSupermarketMachineLearningJavaScript/static/css/main.c5a9519d.css",
-    "main.js": "/kaggleSupermarketMachineLearningJavaScript/static/js/main.1ee87992.js",
+    "main.css": "/kaggleSupermarketMachineLearningJavaScript/static/css/main.2d550e9b.css",
+    "main.js": "/kaggleSupermarketMachineLearningJavaScript/static/js/main.1617ec31.js",
     "index.html": "/kaggleSupermarketMachineLearningJavaScript/index.html",
-    "main.c5a9519d.css.map": "/kaggleSupermarketMachineLearningJavaScript/static/css/main.c5a9519d.css.map",
-    "main.1ee87992.js.map": "/kaggleSupermarketMachineLearningJavaScript/static/js/main.1ee87992.js.map"
+    "main.2d550e9b.css.map": "/kaggleSupermarketMachineLearningJavaScript/static/css/main.2d550e9b.css.map",
+    "main.1617ec31.js.map": "/kaggleSupermarketMachineLearningJavaScript/static/js/main.1617ec31.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a9519d.css",
-    "static/js/main.1ee87992.js"
+    "static/css/main.2d550e9b.css",
+    "static/js/main.1617ec31.js"
   ]
 }
