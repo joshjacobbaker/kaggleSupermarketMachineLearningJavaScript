@@ -24,10 +24,13 @@
 
 ## WIP:
 
-- [Styled-Components with TypeScript]("https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/")
+- [Create new Data-Forge Notebook, explore data]("")
+- [Save New Data File in Project Folder]("https://www.youtube.com/watch?v=zG_cdfso8HI&list=PLQrB0_KjTmHijAPAk0uUDVVFa5wqBqJPj&index=13")
+- [Graph New Data Files in React after processing them in Data-Forge Notebook]("")
 
 ## Finished Goods:
 
+- [Styled-Components with TypeScript]("https://blog.logrocket.com/using-styled-components-in-typescript-a-tutorial-with-examples/")
 - [Reset Global CSS defaults]("https://www.joshwcomeau.com/css/custom-css-reset/")
 - [Save Kaggle Data to Project]("https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data")
 - [Install MLJS]("https://www.npmjs.com/package/ml")
