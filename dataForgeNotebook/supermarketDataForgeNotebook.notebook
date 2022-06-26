@@ -6,21 +6,144 @@
         "language": "typescript",
         "cells": [
             {
-                "id": "4690b9d1-f588-11ec-8287-f596c9bbcfc7",
+                "id": "791b8c60-f59a-11ec-b62c-45ce4c57895d",
                 "cellType": "code",
                 "cellScope": "global",
-                "code": "console.log(2+2)",
-                "lastEvaluationDate": "2022-06-26T12:44:05.698-07:00",
+                "code": "const dataForge = require('data-forge');\nrequire('data-forge-fs');\n\nlet df = await dataForge\n    .readFile(\"./Stores.csv\", { dynamicTyping: true })\n    .parseCSV();\ndisplay(df.head(5));",
+                "lastEvaluationDate": "2022-06-26T14:56:15.376-07:00",
                 "output": [
                     {
                         "value": {
-                            "displayType": "string",
-                            "data": "4\n"
+                            "displayType": "table",
+                            "data": {
+                                "rows": [
+                                    {
+                                        "Store ID": "1",
+                                        "Store_Area": "1659",
+                                        "Items_Available": "1961",
+                                        "Daily_Customer_Count": "530",
+                                        "Store_Sales": "66490"
+                                    },
+                                    {
+                                        "Store ID": "2",
+                                        "Store_Area": "1461",
+                                        "Items_Available": "1752",
+                                        "Daily_Customer_Count": "210",
+                                        "Store_Sales": "39820"
+                                    },
+                                    {
+                                        "Store ID": "3",
+                                        "Store_Area": "1340",
+                                        "Items_Available": "1609",
+                                        "Daily_Customer_Count": "720",
+                                        "Store_Sales": "54010"
+                                    },
+                                    {
+                                        "Store ID": "4",
+                                        "Store_Area": "1451",
+                                        "Items_Available": "1748",
+                                        "Daily_Customer_Count": "620",
+                                        "Store_Sales": "53730"
+                                    },
+                                    {
+                                        "Store ID": "5",
+                                        "Store_Area": "1770",
+                                        "Items_Available": "2111",
+                                        "Daily_Customer_Count": "450",
+                                        "Store_Sales": "46620"
+                                    }
+                                ],
+                                "columnNames": [
+                                    "Store ID",
+                                    "Store_Area",
+                                    "Items_Available",
+                                    "Daily_Customer_Count",
+                                    "Store_Sales"
+                                ]
+                            }
                         }
                     }
                 ],
                 "errors": [],
-                "height": 139
+                "height": 385
+            },
+            {
+                "id": "8409b480-f59a-11ec-b62c-45ce4c57895d",
+                "cellType": "code",
+                "cellScope": "global",
+                "code": "let transformed = df.select(row => {                        // Transform the dataframe, converting units to the metric system.\n    const clone = Object.assign({}, row);               // Clone the original so that we don't modify source data.\n    clone[\"Double_Daily_Customer_Count\"] = clone[\"Daily_Customer_Count\"] * 2; // Convert from inches to centimetres.\n    return clone;\n});\n\ndisplay(transformed.head(5));",
+                "lastEvaluationDate": "2022-06-26T14:56:15.410-07:00",
+                "output": [
+                    {
+                        "value": {
+                            "displayType": "table",
+                            "data": {
+                                "rows": [
+                                    {
+                                        "Store ID": "1",
+                                        "Store_Area": "1659",
+                                        "Items_Available": "1961",
+                                        "Daily_Customer_Count": "530",
+                                        "Store_Sales": "66490",
+                                        "Double_Daily_Customer_Count": 1060
+                                    },
+                                    {
+                                        "Store ID": "2",
+                                        "Store_Area": "1461",
+                                        "Items_Available": "1752",
+                                        "Daily_Customer_Count": "210",
+                                        "Store_Sales": "39820",
+                                        "Double_Daily_Customer_Count": 420
+                                    },
+                                    {
+                                        "Store ID": "3",
+                                        "Store_Area": "1340",
+                                        "Items_Available": "1609",
+                                        "Daily_Customer_Count": "720",
+                                        "Store_Sales": "54010",
+                                        "Double_Daily_Customer_Count": 1440
+                                    },
+                                    {
+                                        "Store ID": "4",
+                                        "Store_Area": "1451",
+                                        "Items_Available": "1748",
+                                        "Daily_Customer_Count": "620",
+                                        "Store_Sales": "53730",
+                                        "Double_Daily_Customer_Count": 1240
+                                    },
+                                    {
+                                        "Store ID": "5",
+                                        "Store_Area": "1770",
+                                        "Items_Available": "2111",
+                                        "Daily_Customer_Count": "450",
+                                        "Store_Sales": "46620",
+                                        "Double_Daily_Customer_Count": 900
+                                    }
+                                ],
+                                "columnNames": [
+                                    "Store ID",
+                                    "Store_Area",
+                                    "Items_Available",
+                                    "Daily_Customer_Count",
+                                    "Store_Sales",
+                                    "Double_Daily_Customer_Count"
+                                ]
+                            }
+                        }
+                    }
+                ],
+                "errors": [],
+                "height": 442
+            },
+            {
+                "id": "c3a482f0-f59a-11ec-b62c-45ce4c57895d",
+                "cellType": "code",
+                "cellScope": "global",
+                "code": "await df.asCSV().writeFile(\"./transformed_2.csv\")",
+                "lastEvaluationDate": "2022-06-26T14:56:15.424-07:00",
+                "output": [],
+                "errors": [],
+                "height": 82
             }
         ]
     }

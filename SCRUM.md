@@ -71,10 +71,10 @@ npx create-react-app supermarket --template typescript
 # Project Resources:
 
 - [Kaggle DataSet]("https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data")
-- [Data-Forge]("")
-- [Vega-Lite-Api]("")
+- [Data-Forge]("https://data-forge-notebook.github.io/data-forge-cheat-sheet/")
 - [TFJS]("")
 - [MLJS]("")
+- [Vega Lite Api Cheat Sheet]("https://vega.github.io/vega-lite-api/api/")
 
 #########################################################################################
 

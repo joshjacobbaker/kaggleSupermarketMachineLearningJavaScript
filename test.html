@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="render-target"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite-api@0.1.0"></script>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+    <script>
+      function VegaLiteComponent(props) {
+        const chartRef = React.createRef()
+
+        React.useEffect(() => {
+          vl.register(vega, vegaLite, {})
+
+          vl.markBar()
+            .data(props.data)
+            .encode(vl.x().fieldQ("b"), vl.y().fieldN("a"), vl.tooltip([vl.fieldQ("b"), vl.fieldN("a")]))
+            .render()
+            .then((chart) => {
+              chartRef.current.appendChild(chart)
+            })
+        })
+
+        return React.createElement("div", { ref: chartRef })
+      }
+
+      const domContainer = document.querySelector("#render-target")
+      ReactDOM.render(
+        React.createElement(VegaLiteComponent, {
+          data: [
+            { a: "A", b: 28 },
+            { a: "B", b: 55 },
+            { a: "C", b: 43 },
+            { a: "D", b: 91 },
+            { a: "E", b: 81 },
+            { a: "F", b: 53 },
+            { a: "G", b: 19 },
+            { a: "H", b: 87 },
+            { a: "I", b: 52 },
+          ],
+        }),
+        domContainer
+      )
+    </script>
+  </body>
+</html>
+
+<!-- https://bl.ocks.org/john-guerra/f5d54da1947d144f5601832b0e2b4f05 -->

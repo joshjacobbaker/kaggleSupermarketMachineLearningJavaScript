@@ -4,9 +4,15 @@
 
 ./Data-ForgeNotebookProSetup1.10.9.AppImage
 
+# CheatSheet:
+
+## https://data-forge-notebook.github.io/data-forge-cheat-sheet/
+
 ########################################################################
 
-# Backlog
+# SCRUM Workflow
+
+## Backlog
 
 - Clean Data
 - Impute Missing Data
@@ -16,11 +22,12 @@
 - Test Model
 - Save Model for production in React App project Environment
 
-# WIP
+## WIP
 
-# FG
+## FG
 
 - Have Successfully created a DFN project folder
 - Have Successfully read data in, wrote data out
 - Have added node_module to .gitignore file
+
   ########################################################################
