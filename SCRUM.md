@@ -80,4 +80,10 @@ npx create-react-app supermarket --template typescript
 
 # Bash Commands
 
+## Will run App development server
+
 npm start
+
+## Will run DataForge Notebook Locally
+
+./Data-ForgeNotebookProSetup1.10.9.AppImage
