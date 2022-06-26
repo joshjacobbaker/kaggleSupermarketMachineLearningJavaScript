@@ -1,0 +1,13 @@
+{
+    "name": "package.json",
+    "version": "1.0.0",
+    "description": "Data-Forge Notebook - A TypeScript notebook",
+    "devDependencies": {
+        "@types/node": "^16.11.4",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "data-forge": "^1.8.25",
+        "data-forge-fs": "0.0.9"
+    }
+}

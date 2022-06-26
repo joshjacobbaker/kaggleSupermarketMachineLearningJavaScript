@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "nodejs": "14.17.4",
+    "sheet": {
+        "id": "4690b9d0-f588-11ec-8287-f596c9bbcfc7",
+        "language": "typescript",
+        "cells": [
+            {
+                "id": "4690b9d1-f588-11ec-8287-f596c9bbcfc7",
+                "cellType": "code",
+                "cellScope": "global",
+                "code": "console.log(2+2)",
+                "lastEvaluationDate": "2022-06-26T12:44:05.698-07:00",
+                "output": [
+                    {
+                        "value": {
+                            "displayType": "string",
+                            "data": "4\n"
+                        }
+                    }
+                ],
+                "errors": [],
+                "height": 139
+            }
+        ]
+    }
+}
