@@ -21,6 +21,7 @@
 - [useRouter, useParams, useHistory, useLocation]("")
 - [Create Components Directory]("")
 - [JSX Table Component with User Input Parameters like filtering, etc.]("https://www.youtube.com/watch?v=-urz6Sh7RE8&list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe&index=5")
+- [React Table]("https://www.youtube.com/watch?v=YwP4NAZGskg&list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz")
 
 ## WIP:
 
@@ -75,6 +76,7 @@ npx create-react-app supermarket --template typescript
 - [TFJS]("")
 - [MLJS]("")
 - [Vega Lite Api Cheat Sheet]("https://vega.github.io/vega-lite-api/api/")
+- [Vega-Lite-Api, React]("https://github.com/vega/react-vega-lite")
 
 #########################################################################################
 

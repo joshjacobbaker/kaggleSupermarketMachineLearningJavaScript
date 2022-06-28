@@ -1,8 +1,8 @@
 import React from "react"
-import HeaderContainerStyled from "./HeaderStyled"
+import HeaderStyled from "./HeaderStyled"
 
 const Header = () => {
-  return <HeaderContainerStyled>Hi Computer</HeaderContainerStyled>
+  return <HeaderStyled>Hi Computer</HeaderStyled>
 }
 
 export default Header

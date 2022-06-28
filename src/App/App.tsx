@@ -9,7 +9,7 @@ function App() {
   return (
     <AppStyled>
       <Header />
-      <Body />
+      <Body>Children Prop Here</Body>
       <Footer />
     </AppStyled>
   )

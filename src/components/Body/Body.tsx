@@ -1,13 +1,11 @@
 import React from "react"
-import BodyStyled from "./BodyStyled"
-import VegaLiteApi from "../VegaLiteApi/VegaLiteApi"
+import * as vl from "vega-lite-api"
 
-const Body = () => {
-  return (
-    <BodyStyled>
-      <VegaLiteApi></VegaLiteApi>
-    </BodyStyled>
-  )
+import BodyStyled from "./BodyStyled"
+
+const Body = ({ children }) => {
+  console.log(vl)
+  return <BodyStyled>Body {children}</BodyStyled>
 }
 
 export default Body
