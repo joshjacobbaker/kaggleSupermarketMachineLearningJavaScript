@@ -41,3 +41,5 @@ document.getElementById('bar-container')
 );"
 
 - [react-vega types]("https://www.npmjs.com/package/@types/react-vega")
+
+- [react-vega with VegaLite in TypeScript ]("https://github.com/vega/react-vega/blob/master/packages/react-vega-demo/stories/ReactVegaLiteDemo.tsx")
