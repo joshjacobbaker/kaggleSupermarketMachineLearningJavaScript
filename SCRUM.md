@@ -23,6 +23,7 @@
 - [JSX Table Component with User Input Parameters like filtering, etc.]("https://www.youtube.com/watch?v=-urz6Sh7RE8&list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe&index=5")
 - [React Table]("https://www.youtube.com/watch?v=YwP4NAZGskg&list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz")
 - [React | TypeScript | Emotion | Chart]("https://www.youtube.com/watch?v=Kusjm26vYc0")
+- [npm run eject to tell create-react-app to allow us to modify the webpack documents, etc.]("")
 
 ## WIP:
 
